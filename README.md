@@ -34,7 +34,7 @@ sudo pacman -U --noconfirm yay_built_package.pkg.tar.xz
 ## install other packages with yay
 
 ```bash
-yay -S alacritty fzf neovim tmux npm i3-wm jdk-openjdk man-db neofetch novnc python-numpy rclone tigervnc tldr ttf-jetbrains-mono xclip xterm
+yay -S alacritty fzf neovim tmux npm i3-wm jdk-openjdk man-db neofetch novnc python-numpy rclone tigervnc tldr ttf-jetbrains-mono xclip
 ```
 
 ## get nvim config
