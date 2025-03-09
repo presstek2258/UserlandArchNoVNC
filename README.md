@@ -4,8 +4,6 @@ Note: please use on fresh install to prevent overwritting.
 
 # userland arch setup
 
-- This is for setting up a arch install on userland
-
 > WARNING: only use on a fresh install. Data will be OVERWRITTEN!
 
 ## first update and add terminal colours
