@@ -57,6 +57,8 @@ rclone deletefile /home/userland/.cache/rclone/bisync/home_userland_pCloudDeskto
 ```bash
 # runNoVNC.sh
 novnc --vnc localhost:5901
+# for different receiver:
+novnc --listen 192.168.x.xxx:6080 --vnc 192.168.x.xxx:5901
 ```
 
 ```bash
@@ -66,7 +68,7 @@ rclone bisync ~/pCloudDesktop/ "pcloud:/pCloud Desktop" --resync
 ```
 
 ```bash
-# runVNC.sh
+# runVNC.sh (put "localhost=no" in .vnc/config to use other receivers)
 vncserver :1
 ```
 
