@@ -82,3 +82,14 @@ tmux send-keys -t my_session:0.1 "./runPCloud.sh" C-m
 tmux send-keys -t my_session:0.2 "./runNoVNC.sh" C-m
 tmux attach-session -t my_session
 ```
+## to add / open ports
+
+```bash
+# check which ports are open
+sudo firewall-cmd --list-ports
+```
+
+```bash
+# open port 5901 for tcp connections (permanently)
+sudo firewall-cmd --add-port=5901/tcp --permanent
+```
